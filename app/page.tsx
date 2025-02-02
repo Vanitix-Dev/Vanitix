@@ -1,5 +1,6 @@
-import Navbar from "../app/components/sections/Navbar";
-import Hero from "../app/components/sections/Hero";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+import Product from "./sections/Product";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Navbar />
       <main className="overflow-hidden">
         <Hero />
+        <Product />
         {/* <Benefits /> */}
         {/* <CategorySection /> */}
         {/* <FeaturedProducts /> */}
